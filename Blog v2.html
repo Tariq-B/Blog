@@ -11,7 +11,7 @@
 	     .nav {background-color: #de2d3d;color:white;font-family: Montserrat;font-weight:600;padding:0.1em;text-align:center;margin:-8px;}
 	     .img {box-shadow: 2px 2px 2px grey;width:400px;display:block;margin:auto;}
 	     .img-title {width:400px;display:block;margin:auto;}
-		 @media screen and (max-width: 400px) {.img, .img-title {width: 85%;}}
+		 @media screen and (max-width: 400px) {.img, .img-title, .title {width: 85% !important;}}
 		 @media screen and (max-width: 400px) { hr, p {max-width: 88%;}}
 		 @media screen and (max-width: 650px) { .resp-container {
     position: relative;
@@ -48,7 +48,7 @@
 	</header>
 	<div>
 		<nav class="nav">
-			 <p><a href="#article1">Articles</a> - <a href="#about">About Us</a> - <a href="#contact">Contact Information</a></p> 
+			 <p style="display:block;margin:auto;padding: 0.4em;"><a href="#article1">Articles</a> - <a href="#about">About Us</a> - <a href="#contact">Contact Information</a></p> 
 		</nav>
 	</div>
 	<div class="div-bottom">
@@ -80,17 +80,17 @@
 	</div>
 	<div class="div-bottom">
 		<article id="about" style="font-family:Montserrat;">
-			<h1 style="font-size:45px;text-align:center;margin-bottom:-10px;margin-top:-10px;">About Us</h1><img class="img" src="https://images.unsplash.com/photo-1548645743-c9182f32e134?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1069&q=80" style="margin-top:20px; width:300px;">
+			<h1 class="title" style="font-size:45px;text-align:center;display:block;margin:auto;margin-bottom:-10px;margin-top:-10px;">About Us</h1><img class="img" src="https://images.unsplash.com/photo-1548645743-c9182f32e134?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1069&q=80" style="margin-top:20px; width:300px;">
 			<p class="p" style="width:390px;text-align:justify;display:block;margin:auto;margin-top:18px;margin-bottom:20px;">It is our mission to seamlessly build high-quality content and continue to approach our jobs with passion and commitment.</p>
 		</article>
 	</div>
 	<hr style="width:390px;opacity:0.5;margin-bottom:12px;">
 	<div class="div-bottom">
 		<article id="contact" style="font-family:Montserrat;">
-			<h1 style="font-size:45px;text-align:center;display:block;margin:auto;margin-bottom:-10px;margin-top:5px;width:390px;">Contact Information</h1><img class="img" id="brown" src="https://uinames.com/api/photos/male/4.jpg" style="margin-top:30px;margin-bottom:30px;width:200px;border-radius:50%;">
-			<h2 style="text-align:center;">Dominic Brown</h2>
-			<p class="p">👤 Male 🌐 Canada</p>
-			<p class="p" style="margin-bottom:-5px">✉️ dominic_84@example.com</p>
+			<h1 class="title" style="font-size:45px;text-align:center;display:block;margin:auto;margin-bottom:-10px;margin-top:5px;">Contact Information</h1><img class="img" id="brown" src="https://uinames.com/api/photos/male/4.jpg" style="margin-top:30px;margin-bottom:30px;width:200px;border-radius:50%;">
+			<h2 style="text-align:center;display:block;margin:auto;">Dominic Brown</h2>
+			<p class="p" style="display:block;margin:auto;padding: 0.7em 0.7em">👤 Male 🌐 Canada</p>
+			<p class="p" style="display:block;margin:auto;margin-bottom:-5px;padding-bottom:0.7em">✉️ dominic_84@example.com</p>
 			<form action="mailto:mbenmouh@outlook.com" method="post">
 				<textarea name="Message" style="display: block; margin:auto;margin-top:10px;border-radius:10px;background-color:#1d1c1c;color:white;max-width:158px;overflow: hidden;"></textarea>
 				<input style="display: block; margin:auto;margin-top:10px;" type="submit" value="Send Email">
